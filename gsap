@@ -1,1 +1,13 @@
 gsap.to(".box", { x: 200, duration: 1 });
+
+
+gsap.to() 
+gsap.to(".box", { x: 200, y: 100, duration: 2, rotation: 360 });
+
+
+gsap.from()
+gsap.from(".box", { opacity: 0, y: -50, duration: 1 });
+
+
+gsap.fromto()
+gsap.fromTo(".box", { x: 0 }, { x: 300, duration: 1 });
