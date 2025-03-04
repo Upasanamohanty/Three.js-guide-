@@ -1,0 +1,4 @@
+let tl = gsap.timeline();
+tl.to(".box1", { x: 100, duration: 1 })
+  .to(".box2", { y: 100, duration: 1 }, "-=0.5")
+  .to(".box3", { scale: 1.5, duration: 1 }, "+=0.5");
