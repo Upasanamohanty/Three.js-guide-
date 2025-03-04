@@ -1,0 +1,13 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+gsap.registerPlugin(ScrollTrigger);
+gsap.to(".box", {
+  x: 300,
+  duration: 2,
+  scrollTrigger: {
+    trigger: ".box",
+    start: "top 80%",
+    end: "top 30%",
+    scrub: true,
+  },
+});
